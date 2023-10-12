@@ -68,7 +68,7 @@
   }
 
   .mistakes {
-      margin-left: 3rem;
+      margin-left: 1rem;
       flex-wrap: wrap;
       display: inline-flex;
       font-family: 'Outfit', sans-serif;
@@ -133,7 +133,7 @@
   }
 
 
-  @media (max-width: 1004px) {
+  @media (max-width: 1000px) {
       body {
         background-image: url('../img/bg-guess-the-word.png');
         background-repeat: no-repeat;
