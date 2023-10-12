@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Word Scramble</title>
 </head>
-<body>  
+
+<body>
     <div class="main-container">
 
         <div class="background-container">
@@ -31,10 +33,32 @@
                         <div class="ball ball-5"></div>
                     </div>
                 </div>
-                <div class="mistakes"></div>
+                <div class="mistakes">
+                    Mistakes: <a class="mistakes-chars">
+                        a, e, w, t
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="word-chars-input">
+
+                <div class="word-chars-container">
+                    <input type="text" class="word-char word-char-1"><input type="text"
+                        class="word-char word-char-2"><input type="text" class="word-char word-char-3"><input
+                        type="text" class="word-char word-char-4"><input type="text"
+                        class="word-char word-char-5"><input type="text" class="word-char word-char-6">
+                </div>
+            </div>
+
+
+            <div class="buttons-container">
+                <button class="btn" id="btn-random">Random</button>
+                <button class="btn" id="btn-reset">Reset</button>
             </div>
         </div>
-        
+
     </div>
 </body>
+
 </html>

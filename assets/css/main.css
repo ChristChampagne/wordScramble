@@ -13,8 +13,7 @@ body{
 .background-container{
     align-self: center;
     text-align: center;
-    background-color: #030616;
-    width: 30%;
+    background-color: #090C1D;
     padding:1rem;
     border-radius: 1rem;
 }
@@ -31,17 +30,21 @@ body{
     font-weight: bold;
     color: #97A3B6;
     font-size: 2rem;
+    box-shadow: #030615 0px 5px;
 }
 .word{
     padding:.5rem;
     vertical-align: baseline;
 }
 .tries-mistakes-container{
-
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
 }
 
 .tries{
+    align-self: self-start;
     font-family: 'Outfit', sans-serif;
+    font-weight: bold;
     color: #4A5567;
     font-size: 0.75rem;
 }
@@ -52,9 +55,73 @@ body{
 
 .ball{
     background-color: white;
-    width: .5rem;
-    height: .5rem;
+    width: .4rem;
+    height: .4rem;
     border-radius: .2rem;
     margin: .1rem;
 }
 
+.mistakes{
+    margin-left: 3rem;
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #4A5567;
+}
+
+.mistakes-chars{
+    font-family: 'Outfit', sans-serif;
+    font-size: .875rem;
+    font-weight: bold;
+    color: #97A3B5;
+}
+
+.word-chars-input{
+    width: 100%;
+}
+
+.word-chars-container{
+    margin-top:4.5rem;
+}
+
+.word-char{
+    width:2.3rem;
+    height: 2.3rem;
+    margin: .3rem;
+    background: transparent;
+    outline: #4A5567 2px solid;
+    border: none;
+    border-radius: .4rem;
+    text-align: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-size: bold;
+}
+
+.word-char:focus{
+    outline: #7B258A 2px solid;
+    border: none;
+}
+
+.buttons-container{
+    margin-top:1rem;
+    margin-bottom: .5rem;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    background-color: #C951E7;
+    color: white;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    margin: 1rem;
+    width: 8rem;
+    padding: .7rem;
+    border-radius: .5rem;
+    box-shadow: #7B258A 0px 5px;
+    cursor: pointer;
+}
