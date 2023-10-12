@@ -1,0 +1,60 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    background-image: url('../img/bg-guess-the-word.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    padding-top: 25vmin;
+    display: flex;
+    flex-direction: column;
+}
+.background-container{
+    align-self: center;
+    text-align: center;
+    background-color: #030616;
+    width: 30%;
+    padding:1rem;
+    border-radius: 1rem;
+}
+.logo{
+    margin-top:1rem;
+}
+.word-container{
+    margin: 1.2rem;
+    text-align: center;
+    background-color:#4A5567;
+    height: 4rem;
+    border-radius: .4rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    color: #97A3B6;
+    font-size: 2rem;
+}
+.word{
+    padding:.5rem;
+    vertical-align: baseline;
+}
+.tries-mistakes-container{
+
+}
+
+.tries{
+    font-family: 'Outfit', sans-serif;
+    color: #4A5567;
+    font-size: 0.75rem;
+}
+
+.tries-counter{
+    display: inline-flex;
+}
+
+.ball{
+    background-color: white;
+    width: .5rem;
+    height: .5rem;
+    border-radius: .2rem;
+    margin: .1rem;
+}
+
